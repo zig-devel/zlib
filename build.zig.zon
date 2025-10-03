@@ -10,8 +10,8 @@
         },
     },
     .paths = .{
-        "LICENSE-0BSD",
-        "LICENSE-Zlib",
+        "LICENSES/",
+        "REUSE.toml",
         "README.md",
         "build.zig",
         "build.zig.zon",

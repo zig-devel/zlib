@@ -23,4 +23,4 @@ mod.linkLibrary(zlib.artifact("z"));
 
 ## License
 
-All code in this repo is dual-licensed under [0BSD](./LICENSE-0BSD) OR [Zlib](./LICENSE-Zlib).
+All code in this repo is dual-licensed under [0BSD](./LICENSES/0BSD.txt) OR [Zlib](./LICENSES/Zlib.txt).
