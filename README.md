@@ -7,7 +7,7 @@ Library implementing the deflate compression method found in gzip and PKZIP.
 Install library:
 
 ```sh
-zig fetch --save https://github.com/zig-devel/zlib/archive/refs/tags/1.3.1.tar.gz
+zig fetch --save https://github.com/zig-devel/zlib/archive/refs/tags/1.3.1+0.tar.gz
 ```
 
 Statically link with `mod` module:
