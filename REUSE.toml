@@ -4,10 +4,12 @@ version = 1
 path = [
     "README.md",
     "REUSE.toml",
+    "tests.zig",
     "build.zig",
     "build.zig.zon",
     ".nvchecker.toml",
     ".gitignore",
+    ".gitattributes",
     ".github/**/*.yml",
 ]
 SPDX-FileCopyrightText = "Zig Devel contributors"

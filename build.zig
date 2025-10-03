@@ -66,4 +66,17 @@ pub fn build(b: *std.Build) void {
     });
 
     b.installArtifact(lib);
+
+    // Smoke unit test
+    const mod = b.addModule("test", .{
+        .root_source_file = b.path("tests.zig"),
+        .target = target,
+        .optimize = optimize,
+    });
+    mod.linkLibrary(lib);
+
+    const run_mod_tests = b.addRunArtifact(b.addTest(.{ .root_module = mod }));
+
+    const test_step = b.step("test", "Run tests");
+    test_step.dependOn(&run_mod_tests.step);
 }

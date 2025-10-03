@@ -13,6 +13,7 @@
         "LICENSES/",
         "REUSE.toml",
         "README.md",
+        "tests.zig",
         "build.zig",
         "build.zig.zon",
     },
