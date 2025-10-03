@@ -1,4 +1,4 @@
-# [zlib](https://zlib.net/)@v1.3.1
+# [zlib](https://zlib.net/)@v1.3.1 [![Build and test library](https://github.com/zig-devel/zlib/actions/workflows/library.yml/badge.svg)](https://github.com/zig-devel/zlib/actions/workflows/library.yml)
 
 Library implementing the deflate compression method found in gzip and PKZIP.
 
