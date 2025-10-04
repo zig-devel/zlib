@@ -1,3 +1,7 @@
+[__config__]
+oldver = ".github/oldver.json"
+newver = ".github/newver.json"
+
 [zlib]
 source = "git"
 git = "https://github.com/madler/zlib.git"
